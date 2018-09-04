@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_hp_publisher">
+    <sys_ui_hp_publisher action="INSERT_OR_UPDATE">
+        <boolean_field/>
+        <boolean_table/>
+        <date_filter/>
+        <default_boolean_field/>
+        <default_choice/>
+        <default_date_filter/>
+        <default_reference_field_value/>
+        <description/>
+        <exclusion_choice_list/>
+        <look_up_name>Cardiac Rehab Location</look_up_name>
+        <name>Cardiac Rehab Locations</name>
+        <reference_conditions/>
+        <reference_table>x_sthc_physical_th_physical_therapy_gym_crm_table</reference_table>
+        <source_field>location</source_field>
+        <source_table>x_sthc_physical_th_physical_therapy_gym_crm_table</source_table>
+        <sys_class_name>sys_ui_hp_publisher</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-08-21 16:38:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>735e96fddb84230096b17d8bbf9619b5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Cardiac Rehab Locations</sys_name>
+        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+        <sys_update_name>sys_ui_hp_publisher_735e96fddb84230096b17d8bbf9619b5</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:42:06</sys_updated_on>
+        <type>6</type>
+        <ui_control_type>2</ui_control_type>
+    </sys_ui_hp_publisher>
+</record_update>

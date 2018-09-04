@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_hp_cascading_filter_target_references">
+    <sys_ui_hp_cascading_filter_target_references action="INSERT_OR_UPDATE">
+        <cascading_filter display_value="Location">597f1631dbc4230096b17d8bbf9619b0</cascading_filter>
+        <filter_field>member.location</filter_field>
+        <sys_class_name>sys_ui_hp_cascading_filter_target_references</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-08-21 16:43:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c9bf1a31dbc4230096b17d8bbf961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>member.location</sys_name>
+        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+        <sys_update_name>sys_ui_hp_cascading_filter_target_references_c9bf1a31dbc4230096b17d8bbf961948</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:43:31</sys_updated_on>
+        <target_table>x_sthc_physical_th_physical_therapy_check_in</target_table>
+    </sys_ui_hp_cascading_filter_target_references>
+</record_update>

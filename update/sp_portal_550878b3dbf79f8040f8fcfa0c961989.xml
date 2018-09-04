@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <homepage display_value="cardiac_rehab_gym">c59838f3dbf79f8040f8fcfa0c96193f</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-08-15 04:02:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>550878b3dbf79f8040f8fcfa0c961989</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Cardiac Rehab Gym</sys_name>
+        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+        <sys_update_name>sp_portal_550878b3dbf79f8040f8fcfa0c961989</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-08-21 14:51:49</sys_updated_on>
+        <theme/>
+        <title>Cardiac Rehab Gym</title>
+        <url_suffix>cardiac_rehab</url_suffix>
+    </sp_portal>
+</record_update>

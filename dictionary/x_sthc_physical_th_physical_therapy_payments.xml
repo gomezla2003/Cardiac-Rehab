@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Member payments" max_length="40" name="x_sthc_physical_th_physical_therapy_payments" type="collection">
+        <element label="Member" max_length="32" name="member" reference="x_sthc_physical_th_physical_therapy_gym_crm_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Method of payment" max_length="40" name="method_of_payment" type="string">
+            <choice>
+                <element label="Cash" sequence="1" value="cash"/>
+                <element label="Check" sequence="2" value="check"/>
+                <element label="Credit/Debt Card" sequence="3" value="card"/>
+            </choice>
+        </element>
+        <element label="Payment Amount" max_length="40" name="payment_amount" type="integer"/>
+        <element default="javascript:gs.now();" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Payment Date" max_length="40" name="payment_date" type="glide_date" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="member"/>
+        </index>
+    </element>
+</database>

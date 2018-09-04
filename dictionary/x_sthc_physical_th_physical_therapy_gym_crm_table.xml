@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Gym Members" max_length="40" name="x_sthc_physical_th_physical_therapy_gym_crm_table" type="collection">
+        <element label="Account Notes" max_length="4000" name="account_notes" type="journal_input"/>
+        <element choice="3" default="1" label="Account Status" mandatory="true" max_length="40" name="account_status" type="string">
+            <choice>
+                <element label="Active" value="1"/>
+                <element label="Inactive" value="2"/>
+            </choice>
+        </element>
+        <element label="Address" max_length="100" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address cont" max_length="40" name="address_cont" type="string"/>
+        <element label="Barcode" max_length="40" name="barcode" type="string"/>
+        <element label="Birthday" max_length="40" name="birthday" type="glide_date"/>
+        <element choice="3" label="Category" mandatory="true" max_length="40" name="category" type="string">
+            <choice>
+                <element label="CEP" value="cep"/>
+                <element label="EEP" value="eep"/>
+                <element label="GEP" value="gep"/>
+            </choice>
+        </element>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Expiration" max_length="40" name="expiration" type="glide_date"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var name = current.first_name + ' ' + current.last_name;&#13;&#10;&#9;return name;&#13;&#10;&#13;&#10;})(current);" display="true" label="Full Name" max_length="40" name="full_name" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Gender" max_length="40" name="gender" type="string">
+            <choice>
+                <element label="Female" value="F"/>
+                <element label="Male" value="M"/>
+            </choice>
+        </element>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element choice="3" label="Home Location" mandatory="true" max_length="40" name="location" type="string">
+            <choice>
+                <element label="Deer Valley" value="dvmc"/>
+                <element label="JCL" value="jclmc"/>
+                <element label="Shea" value="ssmc"/>
+            </choice>
+        </element>
+        <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element default="javascript:gs.now();" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Membership Start Date" max_length="40" name="start" type="glide_date" use_dynamic_default="true"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Zip" max_length="40" name="zip" type="string"/>
+    </element>
+</database>

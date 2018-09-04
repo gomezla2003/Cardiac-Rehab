@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($scope) {
+  /* widget controller */
+  var c = this;
+
+	var input = document.getElementById("barcode");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("myBtn").click();
+    }
+});
+	
+	c.reset = function(){
+		window.location.reload(1);
+	}
+	
+	setTimeout(function(){
+   window.location.reload(1);
+}, 300000);
+
+
+		c.submit = function(){
+		c.server.update();
+		setTimeout(function(){
+			switch (c.data.state){
+				case '2':
+						swal({
+					title: 'Account Error',
+					html: 'Your account needs to be updated, please see front office staff',
+					timer: 2000,
+					type: 'warning',
+					allowEnterKey: false,
+					showCancelButton: false,
+					showConfirmButton: false
+				});	
+						break;
+			
+					case '1':
+							 swal({
+					title: 'Welcome ' + c.data.firstName,
+					html: 'Enjoy your workout',
+					timer: 2000,
+					type: 'success',
+					allowEnterKey: false,
+					showCancelButton: false,
+					showConfirmButton: false
+				});
+						break;	 
+							 
+				default:
+							swal({
+					title: 'Barcode Error',
+					html: 'Please verify your barcode or, please see front office staff',
+					timer: 2000,
+					type: 'error',
+					allowEnterKey: false,
+					showCancelButton: false,
+					showConfirmButton: false
+				});
+						break;
+
+			}
+
+			c.data.state = '';
+			c.data.firstName = '';
+	
+},1000);
+		
+	}
+}
+
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container{
+margin-top:300px;
+}
+
+input{
+  color: black;
+}
+
+.header{
+   background-image: url("background_cardiac.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  
+}
+.image{
+  padding: 20px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>Cardiac Rehab Checkin</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	var param = gs.action.getGlideURI().get('location')
+	
+if(input){
+	
+	if((input.barcode)&&(input.barcode != '')){
+		checkUser(input.barcode);
+		input.barcode = '';
+		data.barcode = '';
+	}
+	
+	
+}
+
+})();
+
+function checkUser (id){
+	var gr = new GlideRecord('x_sthc_physical_th_physical_therapy_gym_crm_table');
+	gr.addQuery('barcode',id);
+	gr.query();
+	if(gr.next()){
+		data.firstName = gr.first_name.getDisplayValue();
+		data.state = gr.getValue('account_status');
+		logUser(gr.sys_id);
+	}
+}
+
+function logUser(id){
+	var gr = new GlideRecord('x_sthc_physical_th_physical_therapy_check_in');
+	gr.initialize();
+	gr.setValue('member',id);
+	gr.setValue('location',gs.action.getGlideURI().get('location'));
+	gr.insert();
+	
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-08-15 04:04:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>115834f3dbf79f8040f8fcfa0c9619f1</sys_id>
+        <sys_mod_count>136</sys_mod_count>
+        <sys_name>Cardiac Rehab Checkin</sys_name>
+        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+        <sys_update_name>sp_widget_115834f3dbf79f8040f8fcfa0c9619f1</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-09-04 16:38:06</sys_updated_on>
+        <template><![CDATA[<div class = "header" ng-click="c.reset()" >
+  
+  <div class="image" >
+    <img src="hh_logoT.png">
+  </div>
+ 
+
+<div class="container">
+  
+  <h1>Welcome to the Cardiac Rehab Gym!</h1>
+    <h2>Please scan your membership card.</h2> 
+  
+  <input id="barcode" ng-model="data.barcode" type="text" name="barcode" autofocus>
+  <button id="myBtn" ng-click="c.submit(data.barcode)">
+    Submit
+  </button>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+
+ 
+  
+  
+</div>
+  </div>
+]]></template>
+    </sp_widget>
+</record_update>
