@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysauto_pa">
+    <sysauto_pa action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <benchmarking>false</benchmarking>
+        <condition/>
+        <conditional>false</conditional>
+        <description/>
+        <kill_job>false</kill_job>
+        <name>Cardiac Rehab PA</name>
+        <run_as display_value="Louie Gomez">9dd736c46fd4710068ceda0cbb3ee476</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-09-06 22:06:32</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>daily</run_type>
+        <score_fixed_end>00000000</score_fixed_end>
+        <score_fixed_start>00000000</score_fixed_start>
+        <score_operator>relative</score_operator>
+        <score_relative_end>0</score_relative_end>
+        <score_relative_end_interval>days</score_relative_end_interval>
+        <score_relative_start>2</score_relative_start>
+        <score_relative_start_interval>weeks</score_relative_start_interval>
+        <sys_class_name>sysauto_pa</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-09-06 22:07:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d823820fdb5ca74096b17d8bbf9619a0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Cardiac Rehab PA</sys_name>
+        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+        <sys_update_name>sysauto_pa_d823820fdb5ca74096b17d8bbf9619a0</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-09-06 22:14:46</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_pa>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -12,11 +12,21 @@
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-	//var old = g_form.getValue('member.expiration');
-	var old = g_form.getReference('member.expiration');
-	alert(old);
+	var ID = g_form.getValue('member');
+	var ga = new GlideAjax("x_sthc_physical_th.Get_Expiration_Date");
+	ga.addParam("sysparm_name", "getExp");
+	ga.addParam("sysparm_member", ID);
 	
-   
+	ga.getXML(callme);
+	
+}
+
+function callme(response){
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	
+//g_form = setDisplayValue('new_expiration_date',answer);
+//g_form.setDisplayValue('new_expiration_date',answer);
+	g_form.setValue('new_expiration_date',answer);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
@@ -24,7 +34,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>248be44bdbd4a74096b17d8bbf9619a9</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>Set Expiration date</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
@@ -33,7 +43,7 @@
         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
         <sys_update_name>sys_script_client_248be44bdbd4a74096b17d8bbf9619a9</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:54:26</sys_updated_on>
+        <sys_updated_on>2018-09-06 21:38:59</sys_updated_on>
         <table>x_sthc_physical_th_physical_therapy_payments</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

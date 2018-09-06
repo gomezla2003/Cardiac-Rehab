@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2018-09-06 15:54:56">
+<record_update node_type="sys_portal_page" unload_date="2018-09-06 22:26:41">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -30,214 +30,6 @@
                 <dropzone/>
                 <offset/>
                 <page display_value="PA New Tab">92efa00cdb44ab8096b17d8bbf9619ef</page>
-                <summary>Cardiac Rehab Locations</summary>
-                <sys_created_by>LGOMEZ</sys_created_by>
-                <sys_created_on>2018-08-21 16:38:59</sys_created_on>
-                <sys_id>06be9abddb84230096b17d8bbf96193e</sys_id>
-                <sys_mod_count>1</sys_mod_count>
-                <sys_updated_by>LGOMEZ</sys_updated_by>
-                <sys_updated_on>2018-08-21 16:38:59</sys_updated_on>
-                <related_items_node>
-                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
-                        <grid_canvas display_value="PA New Tab">92efa00cdb44ab8096b17d8bbf9619f0</grid_canvas>
-                        <height>6</height>
-                        <portal_widget display_value="Created 08-21-2018 09:38:59">06be9abddb84230096b17d8bbf96193e</portal_widget>
-                        <posx>0</posx>
-                        <posy>0</posy>
-                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-21 16:38:59</sys_created_on>
-                        <sys_customer_update>false</sys_customer_update>
-                        <sys_id>cebe9afddb84230096b17d8bbf9619a0</sys_id>
-                        <sys_mod_count>1</sys_mod_count>
-                        <sys_name/>
-                        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
-                        <sys_policy/>
-                        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-                        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
-                        <sys_update_name>sys_grid_canvas_pane_cebe9afddb84230096b17d8bbf9619a0</sys_update_name>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:39:03</sys_updated_on>
-                        <width>12</width>
-                    </sys_grid_canvas_pane>
-                </related_items_node>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>type</name>
-                        <portal_section display_value="Created 08-21-2018 09:38:59">06be9abddb84230096b17d8bbf96193e</portal_section>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-21 16:38:59</sys_created_on>
-                        <sys_id>02be9abddb84230096b17d8bbf961941</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:38:59</sys_updated_on>
-                        <value>-1</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 08-21-2018 09:38:59">06be9abddb84230096b17d8bbf96193e</portal_section>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-21 16:38:59</sys_created_on>
-                        <sys_id>06be9abddb84230096b17d8bbf961940</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:38:59</sys_updated_on>
-                        <value>Cardiac Rehab Locations</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>publisher_widget</name>
-                        <portal_section display_value="Created 08-21-2018 09:38:59">06be9abddb84230096b17d8bbf96193e</portal_section>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-21 16:38:59</sys_created_on>
-                        <sys_id>42be9abddb84230096b17d8bbf961940</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:38:59</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_publish</name>
-                        <portal_section display_value="Created 08-21-2018 09:38:59">06be9abddb84230096b17d8bbf96193e</portal_section>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-21 16:38:59</sys_created_on>
-                        <sys_id>8ebe9abddb84230096b17d8bbf96193f</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:38:59</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 08-21-2018 09:38:59">06be9abddb84230096b17d8bbf96193e</portal_section>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-21 16:38:59</sys_created_on>
-                        <sys_id>cabe9abddb84230096b17d8bbf96193f</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:38:59</sys_updated_on>
-                        <value>com.glideapp.home.RenderHomepagePublishers</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 08-21-2018 09:38:59">06be9abddb84230096b17d8bbf96193e</portal_section>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-21 16:38:59</sys_created_on>
-                        <sys_id>cebe9abddb84230096b17d8bbf96193e</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:38:59</sys_updated_on>
-                        <value>735e96fddb84230096b17d8bbf9619b5</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone/>
-                <offset/>
-                <page display_value="PA New Tab">92efa00cdb44ab8096b17d8bbf9619ef</page>
-                <summary>Cardiac Rehab Active Members by Location</summary>
-                <sys_created_by>LGOMEZ</sys_created_by>
-                <sys_created_on>2018-08-15 22:05:52</sys_created_on>
-                <sys_id>08003cc4db44ab8096b17d8bbf9619ca</sys_id>
-                <sys_mod_count>1</sys_mod_count>
-                <sys_updated_by>LGOMEZ</sys_updated_by>
-                <sys_updated_on>2018-08-15 22:05:52</sys_updated_on>
-                <related_items_node>
-                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
-                        <grid_canvas display_value="PA New Tab">92efa00cdb44ab8096b17d8bbf9619f0</grid_canvas>
-                        <height>11</height>
-                        <portal_widget display_value="Created 08-15-2018 15:05:52">08003cc4db44ab8096b17d8bbf9619ca</portal_widget>
-                        <posx>8</posx>
-                        <posy>23</posy>
-                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-15 22:05:52</sys_created_on>
-                        <sys_customer_update>false</sys_customer_update>
-                        <sys_id>44003cc4db44ab8096b17d8bbf9619cc</sys_id>
-                        <sys_mod_count>19</sys_mod_count>
-                        <sys_name/>
-                        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
-                        <sys_policy/>
-                        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-                        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
-                        <sys_update_name>sys_grid_canvas_pane_44003cc4db44ab8096b17d8bbf9619cc</sys_update_name>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:39:03</sys_updated_on>
-                        <width>4</width>
-                    </sys_grid_canvas_pane>
-                </related_items_node>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>help_text_window</name>
-                        <portal_section display_value="Created 08-15-2018 15:05:52">08003cc4db44ab8096b17d8bbf9619ca</portal_section>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-15 22:05:52</sys_created_on>
-                        <sys_id>04003cc4db44ab8096b17d8bbf9619cb</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-15 22:05:52</sys_updated_on>
-                        <value>report_widget_description</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 08-15-2018 15:05:52">08003cc4db44ab8096b17d8bbf9619ca</portal_section>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-15 22:05:52</sys_created_on>
-                        <sys_id>0c003cc4db44ab8096b17d8bbf9619ca</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-15 22:05:52</sys_updated_on>
-                        <value>6cfe2844db44ab8096b17d8bbf961936</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 08-15-2018 15:05:52">08003cc4db44ab8096b17d8bbf9619ca</portal_section>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-15 22:05:52</sys_created_on>
-                        <sys_id>40003cc4db44ab8096b17d8bbf9619cb</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-15 22:05:52</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderReport</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 08-15-2018 15:05:52">08003cc4db44ab8096b17d8bbf9619ca</portal_section>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-15 22:05:52</sys_created_on>
-                        <sys_id>4c003cc4db44ab8096b17d8bbf9619cb</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-15 22:05:52</sys_updated_on>
-                        <value>Cardiac Rehab Active Members by Location</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>report_type</name>
-                        <portal_section display_value="Created 08-15-2018 15:05:52">08003cc4db44ab8096b17d8bbf9619ca</portal_section>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-15 22:05:52</sys_created_on>
-                        <sys_id>88003cc4db44ab8096b17d8bbf9619cb</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-15 22:05:52</sys_updated_on>
-                        <value>donut</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 08-15-2018 15:05:52">08003cc4db44ab8096b17d8bbf9619ca</portal_section>
-                        <sys_created_by>LGOMEZ</sys_created_by>
-                        <sys_created_on>2018-08-15 22:05:52</sys_created_on>
-                        <sys_id>c4003cc4db44ab8096b17d8bbf9619cb</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-15 22:05:52</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone/>
-                <offset/>
-                <page display_value="PA New Tab">92efa00cdb44ab8096b17d8bbf9619ef</page>
                 <summary>Cardiac Rehab Revenue</summary>
                 <sys_created_by>LGOMEZ</sys_created_by>
                 <sys_created_on>2018-08-15 22:05:47</sys_created_on>
@@ -251,13 +43,13 @@
                         <height>5</height>
                         <portal_widget display_value="Created 08-15-2018 15:05:47">32ff2cc8db44ab8096b17d8bbf961907</portal_widget>
                         <posx>8</posx>
-                        <posy>6</posy>
+                        <posy>0</posy>
                         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                         <sys_created_by>LGOMEZ</sys_created_by>
                         <sys_created_on>2018-08-15 22:05:47</sys_created_on>
                         <sys_customer_update>false</sys_customer_update>
                         <sys_id>7eff2cc8db44ab8096b17d8bbf961909</sys_id>
-                        <sys_mod_count>17</sys_mod_count>
+                        <sys_mod_count>19</sys_mod_count>
                         <sys_name/>
                         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
                         <sys_policy/>
@@ -265,7 +57,7 @@
                         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
                         <sys_update_name>sys_grid_canvas_pane_7eff2cc8db44ab8096b17d8bbf961909</sys_update_name>
                         <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:39:03</sys_updated_on>
+                        <sys_updated_on>2018-09-06 22:13:17</sys_updated_on>
                         <width>4</width>
                     </sys_grid_canvas_pane>
                 </related_items_node>
@@ -432,13 +224,13 @@
                         <height>5</height>
                         <portal_widget display_value="Created 08-15-2018 15:06:08">7700740cdb44ab8096b17d8bbf96199a</portal_widget>
                         <posx>4</posx>
-                        <posy>6</posy>
+                        <posy>0</posy>
                         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                         <sys_created_by>LGOMEZ</sys_created_by>
                         <sys_created_on>2018-08-15 22:06:08</sys_created_on>
                         <sys_customer_update>false</sys_customer_update>
                         <sys_id>b300740cdb44ab8096b17d8bbf96199c</sys_id>
-                        <sys_mod_count>12</sys_mod_count>
+                        <sys_mod_count>16</sys_mod_count>
                         <sys_name/>
                         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
                         <sys_policy/>
@@ -446,7 +238,7 @@
                         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
                         <sys_update_name>sys_grid_canvas_pane_b300740cdb44ab8096b17d8bbf96199c</sys_update_name>
                         <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:39:03</sys_updated_on>
+                        <sys_updated_on>2018-09-06 22:13:29</sys_updated_on>
                         <width>4</width>
                     </sys_grid_canvas_pane>
                 </related_items_node>
@@ -610,16 +402,16 @@
                 <related_items_node>
                     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
                         <grid_canvas display_value="PA New Tab">92efa00cdb44ab8096b17d8bbf9619f0</grid_canvas>
-                        <height>12</height>
+                        <height>10</height>
                         <portal_widget display_value="Created 08-15-2018 15:06:14">91107408db44ab8096b17d8bbf9619fc</portal_widget>
                         <posx>0</posx>
-                        <posy>11</posy>
+                        <posy>5</posy>
                         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                         <sys_created_by>LGOMEZ</sys_created_by>
                         <sys_created_on>2018-08-15 22:06:14</sys_created_on>
                         <sys_customer_update>false</sys_customer_update>
                         <sys_id>d110f40cdb44ab8096b17d8bbf961918</sys_id>
-                        <sys_mod_count>12</sys_mod_count>
+                        <sys_mod_count>24</sys_mod_count>
                         <sys_name/>
                         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
                         <sys_policy/>
@@ -627,7 +419,7 @@
                         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
                         <sys_update_name>sys_grid_canvas_pane_d110f40cdb44ab8096b17d8bbf961918</sys_update_name>
                         <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:39:03</sys_updated_on>
+                        <sys_updated_on>2018-09-06 22:25:30</sys_updated_on>
                         <width>8</width>
                     </sys_grid_canvas_pane>
                 </related_items_node>
@@ -791,16 +583,16 @@
                 <related_items_node>
                     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
                         <grid_canvas display_value="PA New Tab">92efa00cdb44ab8096b17d8bbf9619f0</grid_canvas>
-                        <height>12</height>
+                        <height>10</height>
                         <portal_widget display_value="Created 08-15-2018 15:06:00">b900700cdb44ab8096b17d8bbf961920</portal_widget>
                         <posx>8</posx>
-                        <posy>11</posy>
+                        <posy>5</posy>
                         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                         <sys_created_by>LGOMEZ</sys_created_by>
                         <sys_created_on>2018-08-15 22:06:00</sys_created_on>
                         <sys_customer_update>false</sys_customer_update>
                         <sys_id>f500700cdb44ab8096b17d8bbf961922</sys_id>
-                        <sys_mod_count>19</sys_mod_count>
+                        <sys_mod_count>24</sys_mod_count>
                         <sys_name/>
                         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
                         <sys_policy/>
@@ -808,7 +600,7 @@
                         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
                         <sys_update_name>sys_grid_canvas_pane_f500700cdb44ab8096b17d8bbf961922</sys_update_name>
                         <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:39:03</sys_updated_on>
+                        <sys_updated_on>2018-09-06 22:25:33</sys_updated_on>
                         <width>4</width>
                     </sys_grid_canvas_pane>
                 </related_items_node>
@@ -975,13 +767,13 @@
                         <height>5</height>
                         <portal_widget display_value="Created 08-15-2018 15:06:04">c300340cdb44ab8096b17d8bbf961955</portal_widget>
                         <posx>0</posx>
-                        <posy>6</posy>
+                        <posy>0</posy>
                         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                         <sys_created_by>LGOMEZ</sys_created_by>
                         <sys_created_on>2018-08-15 22:06:04</sys_created_on>
                         <sys_customer_update>false</sys_customer_update>
                         <sys_id>0300340cdb44ab8096b17d8bbf961957</sys_id>
-                        <sys_mod_count>9</sys_mod_count>
+                        <sys_mod_count>12</sys_mod_count>
                         <sys_name/>
                         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
                         <sys_policy/>
@@ -989,7 +781,7 @@
                         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
                         <sys_update_name>sys_grid_canvas_pane_0300340cdb44ab8096b17d8bbf961957</sys_update_name>
                         <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:39:03</sys_updated_on>
+                        <sys_updated_on>2018-09-06 22:13:29</sys_updated_on>
                         <width>4</width>
                     </sys_grid_canvas_pane>
                 </related_items_node>
@@ -1153,16 +945,16 @@
                 <related_items_node>
                     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
                         <grid_canvas display_value="PA New Tab">92efa00cdb44ab8096b17d8bbf9619f0</grid_canvas>
-                        <height>11</height>
+                        <height>17</height>
                         <portal_widget display_value="Created 08-15-2018 15:20:00">cb33bc8cdb44ab8096b17d8bbf9619e6</portal_widget>
                         <posx>0</posx>
-                        <posy>23</posy>
+                        <posy>29</posy>
                         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                         <sys_created_by>LGOMEZ</sys_created_by>
                         <sys_created_on>2018-08-15 22:20:00</sys_created_on>
                         <sys_customer_update>false</sys_customer_update>
                         <sys_id>0b33bc8cdb44ab8096b17d8bbf9619e8</sys_id>
-                        <sys_mod_count>5</sys_mod_count>
+                        <sys_mod_count>21</sys_mod_count>
                         <sys_name/>
                         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
                         <sys_policy/>
@@ -1170,8 +962,8 @@
                         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
                         <sys_update_name>sys_grid_canvas_pane_0b33bc8cdb44ab8096b17d8bbf9619e8</sys_update_name>
                         <sys_updated_by>LGOMEZ</sys_updated_by>
-                        <sys_updated_on>2018-08-21 16:39:03</sys_updated_on>
-                        <width>8</width>
+                        <sys_updated_on>2018-09-06 22:25:50</sys_updated_on>
+                        <width>12</width>
                     </sys_grid_canvas_pane>
                 </related_items_node>
                 <related_items_node>
@@ -1240,6 +1032,99 @@
                         <sys_updated_by>LGOMEZ</sys_updated_by>
                         <sys_updated_on>2018-08-15 22:20:00</sys_updated_on>
                         <value>3713708cdb44ab8096b17d8bbf9619a5</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">92efa00cdb44ab8096b17d8bbf9619ef</page>
+                <summary>Cardiac Rehab Revenue (Shea)</summary>
+                <sys_created_by>LGOMEZ</sys_created_by>
+                <sys_created_on>2018-09-06 22:13:06</sys_created_on>
+                <sys_id>d8a44e8fdb5ca74096b17d8bbf961998</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>LGOMEZ</sys_updated_by>
+                <sys_updated_on>2018-09-06 22:13:06</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab">92efa00cdb44ab8096b17d8bbf9619f0</grid_canvas>
+                        <height>14</height>
+                        <portal_widget display_value="Created 09-06-2018 15:13:06">d8a44e8fdb5ca74096b17d8bbf961998</portal_widget>
+                        <posx>0</posx>
+                        <posy>15</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-09-06 22:13:06</sys_created_on>
+                        <sys_customer_update>false</sys_customer_update>
+                        <sys_id>aca446cfdb5ca74096b17d8bbf961926</sys_id>
+                        <sys_mod_count>16</sys_mod_count>
+                        <sys_name/>
+                        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+                        <sys_policy/>
+                        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_aca446cfdb5ca74096b17d8bbf961926</sys_update_name>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-09-06 22:25:40</sys_updated_on>
+                        <width>12</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 09-06-2018 15:13:06">d8a44e8fdb5ca74096b17d8bbf961998</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-09-06 22:13:06</sys_created_on>
+                        <sys_id>10a446cfdb5ca74096b17d8bbf961921</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-09-06 22:13:06</sys_updated_on>
+                        <value>aa834a0fdb5ca74096b17d8bbf96196e</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 09-06-2018 15:13:06">d8a44e8fdb5ca74096b17d8bbf961998</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-09-06 22:13:06</sys_created_on>
+                        <sys_id>18a446cfdb5ca74096b17d8bbf961925</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-09-06 22:13:06</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 09-06-2018 15:13:06">d8a44e8fdb5ca74096b17d8bbf961998</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-09-06 22:13:06</sys_created_on>
+                        <sys_id>54a446cfdb5ca74096b17d8bbf961925</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-09-06 22:13:06</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 09-06-2018 15:13:06">d8a44e8fdb5ca74096b17d8bbf961998</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-09-06 22:13:06</sys_created_on>
+                        <sys_id>d8a446cfdb5ca74096b17d8bbf961925</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-09-06 22:13:06</sys_updated_on>
+                        <value>Cardiac Rehab Revenue (Shea)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 09-06-2018 15:13:06">d8a44e8fdb5ca74096b17d8bbf961998</portal_section>
+                        <sys_created_by>LGOMEZ</sys_created_by>
+                        <sys_created_on>2018-09-06 22:13:06</sys_created_on>
+                        <sys_id>e4a446cfdb5ca74096b17d8bbf961926</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>LGOMEZ</sys_updated_by>
+                        <sys_updated_on>2018-09-06 22:13:06</sys_updated_on>
+                        <value>time</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>

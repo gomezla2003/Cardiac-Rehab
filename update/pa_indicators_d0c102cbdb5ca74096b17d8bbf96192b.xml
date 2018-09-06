@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_indicators">
+    <pa_indicators action="INSERT_OR_UPDATE">
+        <aggregate>2</aggregate>
+        <benchmarking>false</benchmarking>
+        <collect_breakdown_matrix>false</collect_breakdown_matrix>
+        <collect_records>true</collect_records>
+        <conditions table="x_sthc_physical_th_physical_therapy_payments">member.location=ssmc^EQ<item endquery="false" field="member.location" goto="false" newquery="false" operator="=" or="false" value="ssmc"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <contributor/>
+        <cube display_value="Cardiac Rehab Payments">3a9ff14bdb5ca74096b17d8bbf961942</cube>
+        <default_aggregate/>
+        <default_chart_type>line</default_chart_type>
+        <description>Cardiac Rehab Revenue (Shea) is measured daily as unit .
+The goal for this indicator is not set
+It is the count on data source Cardiac Rehab Payments, which is using the table:
+x_sthc_physical_th_physical_therapy_payments
+with the following conditions:
+Created on Today
+Additional conditions:
+Member Home Location = Shea</description>
+        <direction>3</direction>
+        <display>false</display>
+        <distinct>false</distinct>
+        <distinct_field/>
+        <field>payment_amount</field>
+        <forecast_base_periods>2</forecast_base_periods>
+        <forecast_base_start>00000000</forecast_base_start>
+        <forecast_base_type>1</forecast_base_type>
+        <forecast_method>1</forecast_method>
+        <forecast_periods>2</forecast_periods>
+        <formula/>
+        <formula_aggregate_whole>false</formula_aggregate_whole>
+        <frequency>10</frequency>
+        <groups/>
+        <has_managed_indicators>false</has_managed_indicators>
+        <id>307</id>
+        <key>false</key>
+        <label/>
+        <live_group_profile/>
+        <managed_breakdown/>
+        <managed_element/>
+        <managing_indicator/>
+        <name>Cardiac Rehab Revenue (Shea)</name>
+        <order/>
+        <override_periods>false</override_periods>
+        <precision>0</precision>
+        <related_breakdowns>0</related_breakdowns>
+        <related_jobs>1</related_jobs>
+        <render_continuous_lines>true</render_continuous_lines>
+        <role_override>false</role_override>
+        <roles>x_sthc_physical_th.user</roles>
+        <score_periods>-1</score_periods>
+        <scores_modified_at>2018-09-06 22:19:01</scores_modified_at>
+        <script/>
+        <scripted>false</scripted>
+        <show_delta>true</show_delta>
+        <show_realtime_score>false</show_realtime_score>
+        <snapshot_periods>-1</snapshot_periods>
+        <sys_class_name>pa_indicators</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-09-06 22:05:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d0c102cbdb5ca74096b17d8bbf96192b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Cardiac Rehab Revenue (Shea)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+        <sys_update_name>pa_indicators_d0c102cbdb5ca74096b17d8bbf96192b</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-09-06 22:07:56</sys_updated_on>
+        <type>1</type>
+        <unit display_value="$">20c365e2d7320100ba986f14ce6103b3</unit>
+        <users/>
+        <value_when_nil/>
+        <visible_to>2</visible_to>
+    </pa_indicators>
+</record_update>

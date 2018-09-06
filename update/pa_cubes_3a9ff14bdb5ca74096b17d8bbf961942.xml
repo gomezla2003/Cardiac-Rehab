@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_cubes">
+    <pa_cubes action="INSERT_OR_UPDATE">
+        <benchmarking>false</benchmarking>
+        <conditions table="x_sthc_physical_th_physical_therapy_payments">payment_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()<item endquery="false" field="payment_date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+        </conditions>
+        <description/>
+        <facts_table>x_sthc_physical_th_physical_therapy_payments</facts_table>
+        <facts_table_pk/>
+        <facts_table_pktable/>
+        <facts_table_pkview/>
+        <frequency>10</frequency>
+        <name>Cardiac Rehab Payments</name>
+        <report_source/>
+        <report_source_updated_at/>
+        <sys_class_name>pa_cubes</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2018-09-06 21:52:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>3a9ff14bdb5ca74096b17d8bbf961942</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Cardiac Rehab Payments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+        <sys_update_name>pa_cubes_3a9ff14bdb5ca74096b17d8bbf961942</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2018-09-06 22:17:44</sys_updated_on>
+    </pa_cubes>
+</record_update>
