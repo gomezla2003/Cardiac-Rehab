@@ -5,13 +5,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:19:13</sys_created_on>
-            <sys_id>1b061b86db48630096b17d8bbf96191d</sys_id>
+            <sys_created_on>2018-09-06 15:40:02</sys_created_on>
+            <sys_id>76aa680bdbd4a74096b17d8bbf961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_payments" sys_domain="global" view="Default view">7c2a317ddbb3938096b17d8bbf961942</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:19:13</sys_updated_on>
+            <sys_updated_on>2018-09-06 15:40:02</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>member</element>
             <position>1</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:19:13</sys_created_on>
-            <sys_id>13061b86db48630096b17d8bbf96191e</sys_id>
+            <sys_created_on>2018-09-06 15:40:02</sys_created_on>
+            <sys_id>f6aa680bdbd4a74096b17d8bbf961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_payments" sys_domain="global" view="Default view">7c2a317ddbb3938096b17d8bbf961942</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:19:13</sys_updated_on>
+            <sys_updated_on>2018-09-06 15:40:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:19:13</sys_created_on>
-            <sys_id>93061b86db48630096b17d8bbf96191e</sys_id>
+            <sys_created_on>2018-09-06 15:40:02</sys_created_on>
+            <sys_id>7aaa680bdbd4a74096b17d8bbf961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_payments" sys_domain="global" view="Default view">7c2a317ddbb3938096b17d8bbf961942</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:19:13</sys_updated_on>
+            <sys_updated_on>2018-09-06 15:40:02</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>payment_date</element>
             <position>3</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:19:13</sys_created_on>
-            <sys_id>17061b86db48630096b17d8bbf96191e</sys_id>
+            <sys_created_on>2018-09-06 15:40:02</sys_created_on>
+            <sys_id>faaa680bdbd4a74096b17d8bbf961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_payments" sys_domain="global" view="Default view">7c2a317ddbb3938096b17d8bbf961942</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:19:13</sys_updated_on>
+            <sys_updated_on>2018-09-06 15:40:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>payment_amount</element>
             <position>4</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:19:13</sys_created_on>
-            <sys_id>97061b86db48630096b17d8bbf96191e</sys_id>
+            <sys_created_on>2018-09-06 15:40:02</sys_created_on>
+            <sys_id>7eaa680bdbd4a74096b17d8bbf961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_payments" sys_domain="global" view="Default view">7c2a317ddbb3938096b17d8bbf961942</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:19:13</sys_updated_on>
+            <sys_updated_on>2018-09-06 15:40:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,27 +75,55 @@
             <element>method_of_payment</element>
             <position>5</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:19:13</sys_created_on>
-            <sys_id>1b061b86db48630096b17d8bbf96191e</sys_id>
+            <sys_created_on>2018-09-06 15:40:02</sys_created_on>
+            <sys_id>feaa680bdbd4a74096b17d8bbf961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_payments" sys_domain="global" view="Default view">7c2a317ddbb3938096b17d8bbf961942</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:19:13</sys_updated_on>
+            <sys_updated_on>2018-09-06 15:40:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>check_number</element>
+            <position>6</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-09-06 15:40:02</sys_created_on>
+            <sys_id>72aa680bdbd4a74096b17d8bbf961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_payments" sys_domain="global" view="Default view">7c2a317ddbb3938096b17d8bbf961942</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-09-06 15:40:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>new_expiration_date</element>
+            <position>7</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2018-09-06 15:40:02</sys_created_on>
+            <sys_id>f2aa680bdbd4a74096b17d8bbf961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_payments" sys_domain="global" view="Default view">7c2a317ddbb3938096b17d8bbf961942</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2018-09-06 15:40:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:19:13</sys_created_on>
-            <sys_id>9b061b86db48630096b17d8bbf96191e</sys_id>
+            <sys_created_on>2018-09-06 15:40:02</sys_created_on>
+            <sys_id>76aa680bdbd4a74096b17d8bbf961922</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_payments" sys_domain="global" view="Default view">7c2a317ddbb3938096b17d8bbf961942</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:19:13</sys_updated_on>
+            <sys_updated_on>2018-09-06 15:40:02</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>

@@ -2,7 +2,7 @@
 <record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="Cardiac Rehab Members in the Gyma">3713708cdb44ab8096b17d8bbf9619a5</report_id>
+        <report_id display_value="Cardiac Rehab Members Today">3713708cdb44ab8096b17d8bbf9619a5</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2018-08-15 22:19:30</sys_created_on>

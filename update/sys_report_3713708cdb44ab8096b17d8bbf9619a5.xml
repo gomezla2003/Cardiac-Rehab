@@ -37,7 +37,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>member,sys_created_on</field_list>
-        <filter table="x_sthc_physical_th_physical_therapy_check_in">sys_created_onRELATIVEGE@hour@ago@1<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="RELATIVE" or="false" value="GE@hour@ago@1"/>
+        <filter table="x_sthc_physical_th_physical_therapy_check_in">sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^ORDERBYDESCsys_created_on<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_created_on"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -67,7 +68,7 @@
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
-        <roles/>
+        <roles>x_sthc_physical_th.user</roles>
         <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
@@ -91,17 +92,17 @@
         <sys_created_on>2018-08-15 22:19:30</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3713708cdb44ab8096b17d8bbf9619a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Cardiac Rehab Members in the Gyma</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Cardiac Rehab Members Today</sys_name>
         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
         <sys_update_name>sys_report_3713708cdb44ab8096b17d8bbf9619a5</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-08-15 22:19:30</sys_updated_on>
+        <sys_updated_on>2018-09-06 15:35:06</sys_updated_on>
         <table>x_sthc_physical_th_physical_therapy_check_in</table>
-        <title>Cardiac Rehab Members in the Gyma</title>
+        <title>Cardiac Rehab Members Today</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
@@ -110,7 +111,7 @@
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_color_palette>false</use_color_palette>
-        <user>9dd736c46fd4710068ceda0cbb3ee476</user>
+        <user>GLOBAL</user>
         <users/>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
