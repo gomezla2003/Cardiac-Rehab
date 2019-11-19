@@ -23,14 +23,14 @@
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2018-09-04 17:03:56</sys_created_on>
         <sys_id>ca757d35dbb3938096b17d8bbf96197a</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2019-10-02 07:24:02</sys_updated_on>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-19 16:48:29</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.6</version>
+        <version>1.1.0</version>
     </sys_app>
 </record_update>
