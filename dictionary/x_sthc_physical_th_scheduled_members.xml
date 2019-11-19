@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Scheduled Members" max_length="40" name="x_sthc_physical_th_scheduled_members" type="collection">
+        <element label="Class" max_length="32" name="class" reference="x_sthc_physical_th_gym_classes" type="reference"/>
+        <element label="Gym Class" max_length="32" name="gym_class" reference="x_sthc_physical_th_gym_classes" type="reference"/>
+        <element label="Member" max_length="32" name="member" reference="x_sthc_physical_th_physical_therapy_gym_crm_table" type="reference"/>
+        <index name="index">
+            <element name="gym_class"/>
+        </index>
+        <index name="index2">
+            <element name="member"/>
+        </index>
+        <index name="index3">
+            <element name="class"/>
+        </index>
+    </element>
+</database>

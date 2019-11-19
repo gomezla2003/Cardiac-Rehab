@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_container">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
     <sp_container action="INSERT_OR_UPDATE">
         <background_color/>
         <background_image>4aa713c6db48630096b17d8bbf961982.iix?t=m</background_image>
@@ -30,6 +29,7 @@
     </sp_container>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#e1c0ed</average_image_color>
+        <chunk_size_bytes/>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
         <encryption_context/>
@@ -38,6 +38,7 @@
         <image_width>1920</image_width>
         <size_bytes>50769</size_bytes>
         <size_compressed>27193</size_compressed>
+        <state/>
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2018-08-22 15:26:13</sys_created_on>
         <sys_id>4aa713c6db48630096b17d8bbf961982</sys_id>

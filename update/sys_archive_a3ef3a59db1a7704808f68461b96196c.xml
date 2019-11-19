@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_archive">
+    <sys_archive action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_sthc_physical_th_physical_therapy_gym_crm_table">location=ssmc^u_last_checkinISEMPTY^ORu_last_checkin&lt;=javascript:gs.beginningOfLast12Months()^EQ<item endquery="false" field="location" goto="false" newquery="false" operator="=" or="false" value="ssmc"/>
+            <item endquery="false" field="u_last_checkin" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="u_last_checkin" goto="false" newquery="false" operator="&lt;=" or="true" value="javascript:gs.beginningOfLast12Months()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>archive members with no checkin or checkin greater then 1 year rolling</description>
+        <estimate_date>2019-11-19 16:00:05</estimate_date>
+        <last_run_date>2019-11-19 16:00:05</last_run_date>
+        <name>Cardiac Gym Members</name>
+        <next_run_date>2019-11-19 17:00:00</next_run_date>
+        <parent/>
+        <record_estimate>0</record_estimate>
+        <sys_class_name>sys_archive</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-06-26 22:20:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a3ef3a59db1a7704808f68461b96196c</sys_id>
+        <sys_mod_count>3500</sys_mod_count>
+        <sys_name>Cardiac Gym Members</sys_name>
+        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+        <sys_update_name>sys_archive_a3ef3a59db1a7704808f68461b96196c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-19 16:00:05</sys_updated_on>
+        <table>x_sthc_physical_th_physical_therapy_gym_crm_table</table>
+        <total>268</total>
+    </sys_archive>
+</record_update>

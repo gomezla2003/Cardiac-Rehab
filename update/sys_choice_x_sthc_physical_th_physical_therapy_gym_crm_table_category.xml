@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_sthc_physical_th_physical_therapy_gym_crm_table" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -10,13 +9,13 @@
             <language>en</language>
             <name>x_sthc_physical_th_physical_therapy_gym_crm_table</name>
             <sequence/>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-15 21:07:07</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-09-04 17:04:13</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>5782240cdb04ab8096b17d8bbf96194b</sys_id>
+            <sys_id>10ca2a9edb9823c0a08eaed15b961953</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-15 21:07:07</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-09-04 17:04:13</sys_updated_on>
             <value>cep</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -28,13 +27,13 @@
             <language>en</language>
             <name>x_sthc_physical_th_physical_therapy_gym_crm_table</name>
             <sequence/>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-15 21:06:58</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-09-04 17:04:13</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>91822c84db04ab8096b17d8bbf9619ba</sys_id>
+            <sys_id>50ca2a9edb9823c0a08eaed15b961953</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-15 21:06:58</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-09-04 17:04:13</sys_updated_on>
             <value>eep</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -46,23 +45,23 @@
             <language>en</language>
             <name>x_sthc_physical_th_physical_therapy_gym_crm_table</name>
             <sequence/>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-15 21:06:49</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-09-04 17:04:13</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>a252604cdb04ab8096b17d8bbf961946</sys_id>
+            <sys_id>90ca2a9edb9823c0a08eaed15b961953</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-15 21:06:49</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-09-04 17:04:13</sys_updated_on>
             <value>gep</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>category</element>
             <name>x_sthc_physical_th_physical_therapy_gym_crm_table</name>
             <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-15 21:06:49</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-09-04 17:04:13</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>43722c84db04ab8096b17d8bbf9619b7</sys_id>
+            <sys_id>94ca2a9edb9823c0a08eaed15b961953</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>category</sys_name>
             <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
@@ -70,8 +69,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
             <sys_update_name>sys_choice_x_sthc_physical_th_physical_therapy_gym_crm_table_category</sys_update_name>
-            <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-15 21:06:49</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-09-04 17:04:13</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

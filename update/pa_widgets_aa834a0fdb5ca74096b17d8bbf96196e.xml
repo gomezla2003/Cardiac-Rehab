@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_widgets">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_widgets">
     <pa_widgets action="INSERT_OR_UPDATE">
         <aggregate/>
         <breakdown/>
@@ -20,8 +19,10 @@
         <column_target>false</column_target>
         <column_trend>true</column_trend>
         <compare_main_label/>
-        <compare_number_of_periods>2</compare_number_of_periods>
-        <compare_period>month</compare_period>
+        <compare_number_of_periods/>
+        <compare_period>year</compare_period>
+        <cube_facts_table/>
+        <cutoff>1</cutoff>
         <date_from>00000000</date_from>
         <date_to>00000000</date_to>
         <default_indicator/>
@@ -30,6 +31,7 @@
         <element_level2/>
         <elements_filter/>
         <elements_filter_query> </elements_filter_query>
+        <field/>
         <filter/>
         <flip_axes>false</flip_axes>
         <follow_element>false</follow_element>
@@ -41,14 +43,16 @@
         <gauge_to/>
         <include_comments>false</include_comments>
         <include_confidence>false</include_confidence>
-        <include_forecast>true</include_forecast>
+        <include_forecast>false</include_forecast>
+        <include_prediction_interval>false</include_prediction_interval>
         <include_target>false</include_target>
         <include_thresholds>false</include_thresholds>
         <include_trend>true</include_trend>
         <indicator display_value="Cardiac Rehab Revenue (Shea)">d0c102cbdb5ca74096b17d8bbf96192b</indicator>
-        <is_compare_chart>true</is_compare_chart>
+        <is_compare_chart>false</is_compare_chart>
         <lastscore_compare>previous_score</lastscore_compare>
         <lastscore_periods_back/>
+        <limit>50</limit>
         <lookup_name/>
         <manual_elements>false</manual_elements>
         <max_color/>
@@ -58,13 +62,14 @@
         <period>7d</period>
         <pivot_breakdown/>
         <pivot_elements_filter/>
-        <related_dashboards>1</related_dashboards>
+        <related_dashboards>0</related_dashboards>
         <scorecard_options>all</scorecard_options>
         <show_bar>false</show_bar>
         <show_breakdown_selector>true</show_breakdown_selector>
         <show_data_labels>true</show_data_labels>
+        <show_empty_elements>true</show_empty_elements>
         <show_legend>true</show_legend>
-        <show_range_selector>false</show_range_selector>
+        <show_range_selector>true</show_range_selector>
         <show_top_x/>
         <show_total>false</show_total>
         <show_visualization_selector>true</show_visualization_selector>
@@ -76,7 +81,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>aa834a0fdb5ca74096b17d8bbf96196e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Cardiac Rehab Revenue (Shea)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
@@ -85,13 +90,14 @@
         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
         <sys_update_name>pa_widgets_aa834a0fdb5ca74096b17d8bbf96196e</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-09-06 22:24:37</sys_updated_on>
+        <sys_updated_on>2018-10-09 17:04:41</sys_updated_on>
         <tag/>
         <template>template1</template>
         <treemap_max_color display_value="Green">65b302aea9fe3dba00a530d65ecc2106</treemap_max_color>
         <treemap_min_color display_value="Red">65b30395a9fe3dba003277a7b660b5db</treemap_min_color>
         <type>time</type>
         <visualization>line</visualization>
+        <words_in_trendline>5</words_in_trendline>
         <yaxis2_from/>
         <yaxis2_title/>
         <yaxis2_to/>

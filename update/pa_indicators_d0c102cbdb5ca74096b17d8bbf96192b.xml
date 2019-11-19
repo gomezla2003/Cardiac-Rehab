@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_indicators">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicators">
     <pa_indicators action="INSERT_OR_UPDATE">
         <aggregate>2</aggregate>
         <benchmarking>false</benchmarking>
@@ -10,6 +9,7 @@
         </conditions>
         <contributor/>
         <cube display_value="Cardiac Rehab Payments">3a9ff14bdb5ca74096b17d8bbf961942</cube>
+        <data_source/>
         <default_aggregate/>
         <default_chart_type>line</default_chart_type>
         <description>Cardiac Rehab Revenue (Shea) is measured daily as unit .
@@ -28,16 +28,19 @@ Member Home Location = Shea</description>
         <forecast_base_periods>2</forecast_base_periods>
         <forecast_base_start>00000000</forecast_base_start>
         <forecast_base_type>1</forecast_base_type>
+        <forecast_lower_limit/>
         <forecast_method>1</forecast_method>
         <forecast_periods>2</forecast_periods>
+        <forecast_upper_limit/>
         <formula/>
         <formula_aggregate_whole>false</formula_aggregate_whole>
         <frequency>10</frequency>
         <groups/>
         <has_managed_indicators>false</has_managed_indicators>
-        <id>307</id>
+        <id>311</id>
         <key>false</key>
         <label/>
+        <linked_indicator/>
         <live_group_profile/>
         <managed_breakdown/>
         <managed_element/>
@@ -52,12 +55,13 @@ Member Home Location = Shea</description>
         <role_override>false</role_override>
         <roles>x_sthc_physical_th.user</roles>
         <score_periods>-1</score_periods>
-        <scores_modified_at>2018-09-27 07:01:11</scores_modified_at>
+        <scores_modified_at>2019-11-19 07:01:24</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>
         <show_realtime_score>false</show_realtime_score>
         <snapshot_periods>-1</snapshot_periods>
+        <sql_statement/>
         <sys_class_name>pa_indicators</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2018-09-06 22:05:29</sys_created_on>

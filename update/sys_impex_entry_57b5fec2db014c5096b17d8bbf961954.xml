@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_impex_entry">
+    <sys_impex_entry action="INSERT_OR_UPDATE">
+        <default_value/>
+        <field>start</field>
+        <map display_value="icalendar.x_sthc_physical_th_gym_classes">52853ec2db014c5096b17d8bbf961989</map>
+        <mapped_field>start</mapped_field>
+        <name>dtstart</name>
+        <script/>
+        <sys_class_name>sys_impex_entry</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-11-12 22:23:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>57b5fec2db014c5096b17d8bbf961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dtstart</sys_name>
+        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+        <sys_update_name>sys_impex_entry_57b5fec2db014c5096b17d8bbf961954</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-11-12 22:23:15</sys_updated_on>
+        <table>x_sthc_physical_th_gym_classes</table>
+        <type>field</type>
+        <var_name/>
+    </sys_impex_entry>
+</record_update>

@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_hp_cascading_filter_target_references">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_cascading_filter_target_references">
     <sys_ui_hp_cascading_filter_target_references action="INSERT_OR_UPDATE">
-        <cascading_filter display_value="Location">597f1631dbc4230096b17d8bbf9619b0</cascading_filter>
+        <cascading_filter display_value="">597f1631dbc4230096b17d8bbf9619b0</cascading_filter>
         <filter_field>member.location</filter_field>
         <sys_class_name>sys_ui_hp_cascading_filter_target_references</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>

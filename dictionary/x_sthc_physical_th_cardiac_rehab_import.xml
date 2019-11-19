@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sys_import_set_row" label="Cardiac Rehab Import" max_length="40" name="x_sthc_physical_th_cardiac_rehab_import" type="collection">
         <element attributes="import_attribute_name=ADDRESS1,edge_encryption_enabled=true" label="ADDRESS1" max_length="40" name="u_address1" type="string"/>
         <element attributes="import_attribute_name=ADDRESS2,edge_encryption_enabled=true" label="ADDRESS2" max_length="40" name="u_address2" type="string"/>

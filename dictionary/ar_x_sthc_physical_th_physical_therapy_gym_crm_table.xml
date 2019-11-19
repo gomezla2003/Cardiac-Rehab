@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Archive Gym Members" max_length="40" name="ar_x_sthc_physical_th_physical_therapy_gym_crm_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Account notes" max_length="16777215" name="account_notes" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" label="Account status" max_length="40" name="account_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="100" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address cont" max_length="40" name="address_cont" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Barcode" max_length="40" name="barcode" type="string"/>
+        <element label="Birthday" max_length="10" name="birthday" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Category" max_length="40" name="category" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element label="Expiration" max_length="10" name="expiration" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="First name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Full name" max_length="40" name="full_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Gender" max_length="40" name="gender" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone number" max_length="40" name="phone_number" type="string"/>
+        <element label="Start" max_length="10" name="start" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="state" type="string"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Archived" max_length="40" name="sys_archived" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Archive restored" max_length="40" name="sys_archive_restored" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Dob string" max_length="40" name="u_dob_string" type="string"/>
+        <element label="Last checkin" max_length="19" name="u_last_checkin" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip" max_length="40" name="zip" type="string"/>
+        <index name="index">
+            <element name="full_name"/>
+        </index>
+    </element>
+</database>

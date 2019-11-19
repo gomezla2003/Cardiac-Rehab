@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_sthc_physical_th_physical_therapy_check_in" version="2" view="RPT3713708cdb44ab8096b17d8bbf9619a5">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>member</element>
-            <list_id display_value="x_sthc_physical_th_physical_therapy_check_in" element="NULL" name="x_sthc_physical_th_physical_therapy_check_in" parent="NULL" relationship="NULL" sys_domain="global" view="f7137c8cdb44ab8096b17d8bbf961992">6a896847dbd4a74096b17d8bbf96190a</list_id>
+            <list_id display_value="x_sthc_physical_th_physical_therapy_check_in" element="NULL" name="x_sthc_physical_th_physical_therapy_check_in" parent="NULL" relationship="NULL" sys_domain="global" view="bfca6a12dbd823c0a08eaed15b961909">6a896847dbd4a74096b17d8bbf96190a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="x_sthc_physical_th_physical_therapy_check_in" element="NULL" name="x_sthc_physical_th_physical_therapy_check_in" parent="NULL" relationship="NULL" sys_domain="global" view="f7137c8cdb44ab8096b17d8bbf961992">6a896847dbd4a74096b17d8bbf96190a</list_id>
+            <list_id display_value="x_sthc_physical_th_physical_therapy_check_in" element="NULL" name="x_sthc_physical_th_physical_therapy_check_in" parent="NULL" relationship="NULL" sys_domain="global" view="bfca6a12dbd823c0a08eaed15b961909">6a896847dbd4a74096b17d8bbf96190a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -57,7 +56,7 @@
             <sys_updated_by>LGOMEZ</sys_updated_by>
             <sys_updated_on>2018-09-06 15:35:06</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt3713708cdb44ab8096b17d8bbf9619a5" name="RPT3713708cdb44ab8096b17d8bbf9619a5">f7137c8cdb44ab8096b17d8bbf961992</view>
+            <view display_value="Rpt3713708cdb44ab8096b17d8bbf9619a5" name="RPT3713708cdb44ab8096b17d8bbf9619a5">bfca6a12dbd823c0a08eaed15b961909</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

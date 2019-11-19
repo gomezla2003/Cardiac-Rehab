@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="db_image">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
     <db_image action="INSERT_OR_UPDATE">
         <active>true</active>
         <category>Service Portal</category>
@@ -27,6 +26,7 @@
     </db_image>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#e1c0ed</average_image_color>
+        <chunk_size_bytes/>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
         <encryption_context/>
@@ -35,6 +35,7 @@
         <image_width>1920</image_width>
         <size_bytes>50769</size_bytes>
         <size_compressed>27193</size_compressed>
+        <state/>
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2018-08-22 16:51:04</sys_created_on>
         <sys_id>7c1bab86db88630096b17d8bbf961905</sys_id>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
     <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
         <dashboard display_value="Cardiac Rehab">99cf600cdb44ab8096b17d8bbf96190b</dashboard>
         <home>false</home>
@@ -21,6 +20,6 @@
         <sys_update_name>pa_m2m_dashboard_tabs_92efa00cdb44ab8096b17d8bbf9619f3</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
         <sys_updated_on>2018-08-15 22:05:29</sys_updated_on>
-        <tab display_value="New Tab">1eefa00cdb44ab8096b17d8bbf9619f0</tab>
+        <tab display_value="Current">1eefa00cdb44ab8096b17d8bbf9619f0</tab>
     </pa_m2m_dashboard_tabs>
 </record_update>

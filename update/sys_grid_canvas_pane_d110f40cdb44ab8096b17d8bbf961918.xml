@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_grid_canvas_pane">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA New Tab">92efa00cdb44ab8096b17d8bbf9619f0</grid_canvas>
         <height>10</height>
         <portal_widget display_value="Created 08-15-2018 15:06:14">91107408db44ab8096b17d8bbf9619fc</portal_widget>
         <posx>0</posx>
-        <posy>5</posy>
+        <posy>10</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2018-08-15 22:06:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d110f40cdb44ab8096b17d8bbf961918</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
         <sys_policy/>
@@ -19,7 +18,7 @@
         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_d110f40cdb44ab8096b17d8bbf961918</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-09-06 22:25:30</sys_updated_on>
+        <sys_updated_on>2019-06-20 23:13:59</sys_updated_on>
         <width>8</width>
     </sys_grid_canvas_pane>
 </record_update>

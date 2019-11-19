@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_category" table="x_sthc_physical_th_cardiac_rehab_import">
         <active>true</active>
         <array>false</array>
@@ -26,6 +25,8 @@
         <element>u_category</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
@@ -48,7 +49,7 @@
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2018-08-22 16:01:01</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>6f9f9f4edb48630096b17d8bbf9619c0</sys_id>
+        <sys_id>c0cae69edb9823c0a08eaed15b9619fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>CATEGORY</sys_name>
         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
@@ -56,8 +57,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
         <sys_update_name>sys_dictionary_x_sthc_physical_th_cardiac_rehab_import_u_category</sys_update_name>
-        <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-08-22 16:01:01</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-09-27 16:15:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

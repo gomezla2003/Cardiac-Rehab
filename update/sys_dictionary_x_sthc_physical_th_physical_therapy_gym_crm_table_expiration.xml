@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="expiration" table="x_sthc_physical_th_physical_therapy_gym_crm_table">
         <active>true</active>
         <array>false</array>
@@ -31,6 +30,8 @@
         <element>expiration</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="">glide_date</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
@@ -53,7 +54,7 @@
         <sys_created_by>LGOMEZ</sys_created_by>
         <sys_created_on>2018-08-15 21:05:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>3301ac48db04ab8096b17d8bbf96195b</sys_id>
+        <sys_id>dcca2a9edb9823c0a08eaed15b961941</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Expiration</sys_name>
         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
@@ -61,8 +62,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
         <sys_update_name>sys_dictionary_x_sthc_physical_th_physical_therapy_gym_crm_table_expiration</sys_update_name>
-        <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-08-15 21:05:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-09-27 16:15:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="6ca6b1f5dbb3938096b17d8bbf961971" sys_domain="global" table="x_sthc_physical_th_physical_therapy_gym_crm_table" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>barcode</element>
             <position>0</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>f25a178adb48630096b17d8bbf9619d9</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>f2b3ba1ddbde3704808f68461b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +18,13 @@
             <element>first_name</element>
             <position>1</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>7a5a178adb48630096b17d8bbf9619d9</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>fab3ba1ddbde3704808f68461b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +32,13 @@
             <element>last_name</element>
             <position>2</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>fa5a178adb48630096b17d8bbf9619d9</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>7eb3ba1ddbde3704808f68461b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,209 +46,237 @@
             <element>birthday</element>
             <position>3</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>7e5a178adb48630096b17d8bbf9619d9</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>feb3ba1ddbde3704808f68461b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dob_string</element>
+            <position>4</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>72b3ba1ddbde3704808f68461b96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gender</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>fe5a178adb48630096b17d8bbf9619d9</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>f2b3ba1ddbde3704808f68461b96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>phone_number</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>725a178adb48630096b17d8bbf9619da</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>76b3ba1ddbde3704808f68461b96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>email</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>f25a178adb48630096b17d8bbf9619da</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>f6b3ba1ddbde3704808f68461b96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>address</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>765a178adb48630096b17d8bbf9619da</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>7ab3ba1ddbde3704808f68461b96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>address_cont</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>f65a178adb48630096b17d8bbf9619da</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>fab3ba1ddbde3704808f68461b96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>city</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>7a5a178adb48630096b17d8bbf9619da</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>7eb3ba1ddbde3704808f68461b96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>zip</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>fa5a178adb48630096b17d8bbf9619da</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>feb3ba1ddbde3704808f68461b96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>7e5a178adb48630096b17d8bbf9619da</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>72b3ba1ddbde3704808f68461b96196b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>fe5a178adb48630096b17d8bbf9619da</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>f2b3ba1ddbde3704808f68461b96196b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>category</element>
-            <position>13</position>
+            <position>14</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>725a178adb48630096b17d8bbf9619db</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>76b3ba1ddbde3704808f68461b96196b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>start</element>
-            <position>14</position>
+            <position>15</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>f25a178adb48630096b17d8bbf9619db</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>f6b3ba1ddbde3704808f68461b96196b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>expiration</element>
-            <position>15</position>
+            <position>16</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>765a178adb48630096b17d8bbf9619db</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>7ab3ba1ddbde3704808f68461b96196b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_last_checkin</element>
+            <position>17</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>fab3ba1ddbde3704808f68461b96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>account_status</element>
-            <position>16</position>
+            <position>18</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>f65a178adb48630096b17d8bbf9619db</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>7eb3ba1ddbde3704808f68461b96196b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location</element>
-            <position>17</position>
+            <position>19</position>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-08-22 15:38:01</sys_created_on>
-            <sys_id>7a5a178adb48630096b17d8bbf9619db</sys_id>
+            <sys_created_on>2019-06-26 21:26:14</sys_created_on>
+            <sys_id>feb3ba1ddbde3704808f68461b96196b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">6ca6b1f5dbb3938096b17d8bbf961971</sys_ui_section>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-08-22 15:38:01</sys_updated_on>
+            <sys_updated_on>2019-06-26 21:26:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

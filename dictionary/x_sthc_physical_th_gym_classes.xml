@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Gym Classes" max_length="40" name="x_sthc_physical_th_gym_classes" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="100" name="address" type="string"/>
+        <element label="Capacity" max_length="40" name="capacity" type="integer"/>
+        <element label="Currently Enrolled" max_length="40" name="currently_enrolled" read_only="true" type="integer"/>
+        <element label="End" max_length="40" name="end" type="glide_date_time"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element display="true" label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element label="Start" max_length="40" name="start" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Group" value="group"/>
+                <element inactive_on_update="false" label="Private" value="private"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

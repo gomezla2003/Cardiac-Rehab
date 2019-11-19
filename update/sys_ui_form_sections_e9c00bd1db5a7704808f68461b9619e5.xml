@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e9c00bd1db5a7704808f68461b9619e5" sys_domain="global" table="ar_x_sthc_physical_th_physical_therapy_gym_crm_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-06-26 22:23:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>21c00bd1db5a7704808f68461b9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="ar_x_sthc_physical_th_physical_therapy_gym_crm_table" name="ar_x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">e9c00bd1db5a7704808f68461b9619e5</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="ar_x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">69c00bd1db5a7704808f68461b9619e1</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-06-26 22:23:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-06-26 22:23:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e1c00bd1db5a7704808f68461b9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="ar_x_sthc_physical_th_physical_therapy_gym_crm_table" name="ar_x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">e9c00bd1db5a7704808f68461b9619e5</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="ar_x_sthc_physical_th_physical_therapy_gym_crm_table" sys_domain="global" view="Default view">adc00bd1db5a7704808f68461b9619e4</sys_ui_section>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-06-26 22:23:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>ar_x_sthc_physical_th_physical_therapy_gym_crm_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-06-26 22:23:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>e9c00bd1db5a7704808f68461b9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ar_x_sthc_physical_th_physical_therapy_gym_crm_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e9c00bd1db5a7704808f68461b9619e5</sys_update_name>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-06-26 22:23:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

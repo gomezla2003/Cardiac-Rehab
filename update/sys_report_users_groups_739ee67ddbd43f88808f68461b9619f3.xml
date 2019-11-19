@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="Cardiac Rehab" name="Cardiac Rehab">5842e0c3db54afc0a08eaed15b9619be</group_id>
+        <report_id display_value="Cardiac Rehab Gym Checkins Last Month by Hour of day">79f752bddb5cfb88808f68461b961962</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-03-21 00:15:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>739ee67ddbd43f88808f68461b9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>79f752bddb5cfb88808f68461b961962</sys_name>
+        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+        <sys_update_name>sys_report_users_groups_739ee67ddbd43f88808f68461b9619f3</sys_update_name>
+        <sys_updated_by>LGOMEZ</sys_updated_by>
+        <sys_updated_on>2019-03-21 00:15:18</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>

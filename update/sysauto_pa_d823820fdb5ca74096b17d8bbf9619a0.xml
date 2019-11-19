@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysauto_pa">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_pa">
     <sysauto_pa action="INSERT_OR_UPDATE">
         <active>true</active>
         <benchmarking>false</benchmarking>
+        <collect>scores_text</collect>
         <condition/>
         <conditional>false</conditional>
         <description/>
@@ -21,7 +21,7 @@
         <score_operator>relative</score_operator>
         <score_relative_end>0</score_relative_end>
         <score_relative_end_interval>days</score_relative_end_interval>
-        <score_relative_start>2</score_relative_start>
+        <score_relative_start>1</score_relative_start>
         <score_relative_start_interval>weeks</score_relative_start_interval>
         <sys_class_name>sysauto_pa</sys_class_name>
         <sys_created_by>LGOMEZ</sys_created_by>
@@ -29,7 +29,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d823820fdb5ca74096b17d8bbf9619a0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Cardiac Rehab PA</sys_name>
         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
         <sys_policy/>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
         <sys_update_name>sysauto_pa_d823820fdb5ca74096b17d8bbf9619a0</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-09-06 22:14:46</sys_updated_on>
+        <sys_updated_on>2018-09-06 22:32:53</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_pa>
 </record_update>

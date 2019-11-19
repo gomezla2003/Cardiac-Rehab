@@ -1,50 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_sthc_physical_th_physical_therapy_check_in" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="x_sthc_physical_th_physical_therapy_check_in" element="NULL" name="x_sthc_physical_th_physical_therapy_check_in" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">223bf0f1db78ef0096b17d8bbf961907</list_id>
+            <list_id display_value="x_sthc_physical_th_physical_therapy_check_in" element="NULL" name="x_sthc_physical_th_physical_therapy_check_in" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2fdefa98db53ab0074471cb51b961912</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-09-27 16:11:22</sys_created_on>
-            <sys_id>aa3bf0f1db78ef0096b17d8bbf961907</sys_id>
+            <sys_created_on>2019-01-25 16:32:37</sys_created_on>
+            <sys_id>e7defa98db53ab0074471cb51b961913</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-09-27 16:11:22</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:32:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>location</element>
-            <list_id display_value="x_sthc_physical_th_physical_therapy_check_in" element="NULL" name="x_sthc_physical_th_physical_therapy_check_in" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">223bf0f1db78ef0096b17d8bbf961907</list_id>
+            <list_id display_value="x_sthc_physical_th_physical_therapy_check_in" element="NULL" name="x_sthc_physical_th_physical_therapy_check_in" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2fdefa98db53ab0074471cb51b961912</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-09-27 16:11:22</sys_created_on>
-            <sys_id>223bf0f1db78ef0096b17d8bbf961908</sys_id>
+            <sys_created_on>2019-01-25 16:32:37</sys_created_on>
+            <sys_id>6fdefa98db53ab0074471cb51b961913</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-09-27 16:11:22</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:32:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>member</element>
-            <list_id display_value="x_sthc_physical_th_physical_therapy_check_in" element="NULL" name="x_sthc_physical_th_physical_therapy_check_in" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">223bf0f1db78ef0096b17d8bbf961907</list_id>
+            <list_id display_value="x_sthc_physical_th_physical_therapy_check_in" element="NULL" name="x_sthc_physical_th_physical_therapy_check_in" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2fdefa98db53ab0074471cb51b961912</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-09-27 16:11:22</sys_created_on>
-            <sys_id>a23bf0f1db78ef0096b17d8bbf961908</sys_id>
+            <sys_created_on>2019-01-25 16:32:37</sys_created_on>
+            <sys_id>efdefa98db53ab0074471cb51b961913</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-09-27 16:11:22</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:32:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>member.barcode</element>
+            <list_id display_value="x_sthc_physical_th_physical_therapy_check_in" element="NULL" name="x_sthc_physical_th_physical_therapy_check_in" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2fdefa98db53ab0074471cb51b961912</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>LGOMEZ</sys_created_by>
+            <sys_created_on>2019-01-25 16:32:37</sys_created_on>
+            <sys_id>63defa98db53ab0074471cb51b961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>LGOMEZ</sys_updated_by>
+            <sys_updated_on>2019-01-25 16:32:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -58,10 +72,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>LGOMEZ</sys_created_by>
-            <sys_created_on>2018-09-27 16:11:22</sys_created_on>
+            <sys_created_on>2019-01-25 16:32:37</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>223bf0f1db78ef0096b17d8bbf961907</sys_id>
+            <sys_id>2fdefa98db53ab0074471cb51b961912</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_sthc_physical_th_physical_therapy_check_in</sys_name>
             <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
@@ -70,7 +84,7 @@
             <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
             <sys_update_name>sys_ui_list_x_sthc_physical_th_physical_therapy_check_in_null</sys_update_name>
             <sys_updated_by>LGOMEZ</sys_updated_by>
-            <sys_updated_on>2018-09-27 16:11:22</sys_updated_on>
+            <sys_updated_on>2019-01-25 16:32:37</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

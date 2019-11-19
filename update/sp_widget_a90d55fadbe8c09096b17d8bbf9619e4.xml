@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+
+
+c.submit = function(classID,enr,cap){
+	var ID;
+	if(enr >= cap){
+		swal('Class is full','We apologize, this class is full','error');
+		return false;
+	}
+	
+	
+		swal({
+			title: 'Please enter your member ID number',
+			html:
+			'Your member ID number can be found on the back of your key card<input id="swal-ID" class="swal2-input">',
+			showCancelButton:true,
+			showCloseButton:true,
+			confirmButtonText:'<i class="fa fa-check"></i> Enroll',
+			cancelButtonText:'<i class="fa fa-window-close-o"></i> Cancel',
+			preConfirm: function(){
+			return new Promise(function (resolve){
+			resolve([
+			$('#swal-ID').val()
+			])
+			c.data.id = $('#swal-ID').val();
+		})
+		},
+			 onOpen: function () {
+    $('#swal-ID').focus()
+  }
+		}).then(function (result) {
+			
+			c.data.classID = classID;
+			c.server.update().then(function(){
+		
+			if(c.data.userFound == 'true')
+				swal("Thank you", "You have been registered for this class. Please check your email for confirmation",'success');
+				else
+					swal("Invalid ID","The ID you entered is not valid. Please try again",'error');
+			});
+});
+}}
+
+
+
+
+
+
+
+
+
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>@import url('https://fonts.googleapis.com/css?family=Cabin:400,600');
+$base_color: rgba(0,0,0,1);
+$accent_color: yellow;
+$primary_color: #E27;
+$bg_color: #ede8e8;
+
+img{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  max-width:40%;
+}
+
+
+.body{
+  margin-left:auto;
+  margin-right:auto;
+  background: #EBEBEB;
+  max-width: 600px;
+}
+
+.content{
+  padding: 8px;
+}
+
+.container {
+  position:relative;
+  cursor: pointer;
+  max-width: 500px;
+  padding: 5px 1.5rem;
+  margin: 3;
+}
+// List Item
+.list__item {
+  display: block;
+  padding-bottom: 2rem;
+  margin: 0 0 1rem 0;
+  background: #FFF;
+  
+  color: #000;
+  transition: all .2s ease;
+  border: 2px solid purple;
+  border-radius: 1rem;
+  
+  &amp;:hover {
+    color: blue !important;
+    box-shadow: 0 2px 10px 0 transparentize($base_color, .9);
+  }
+}
+.title {
+  font-size: 1.55rem;
+  color: inherit !important;
+  font-weight: 600;
+  margin-bottom: .25rem;
+}
+
+
+.location{
+  float:left;
+}
+.detail{
+  position:absolute;
+right:20px;
+}
+
+
+h1{
+text-align:center;
+  color:purple;
+}
+
+//Title
+
+h2 {
+    font: 1.5rem sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2.background {
+    position: relative;
+    z-index: 1;
+    
+    &amp;:before {
+        border-top: 2px solid #dfdfdf;
+        content:"";
+        margin: 0 auto; /* this centers the line to the full width specified */
+        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 95%;
+        z-index: -1;
+    }
+
+    span { 
+        /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+        background: #EBEBEB; 
+        padding: 0 15px; 
+    }
+}
+
+h2.double:before { 
+    /* this is just to undo the :before styling from above */
+    border-top: none; 
+}
+
+h2.double:after {
+    border-bottom: 1px solid blue;
+    -webkit-box-shadow: 0 1px 0 0 red;
+    -moz-box-shadow: 0 1px 0 0 red;
+    box-shadow: 0 1px 0 0 red;
+    content: "";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute;
+    top: 45%; left: 0; right: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>Gym Sign up 2</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.classes = [];
+	data.classes = getClasses();
+	data.dates = [];
+	data.dates = getDates();
+
+	if(input){
+		if(input.id){
+			checkUser(input.id);
+		data.classes = getClasses();
+		}
+		
+	}
+
+})();
+
+function getClasses(){
+	
+var array = [];
+	var gr = new GlideRecord('x_sthc_physical_th_gym_classes');
+	gr.orderBy('start');
+	gr.addQuery('type','group')
+	gr.query();
+	while(gr.next()){
+		var gymClass = {};
+		var start = gr.start.getDisplayValue().split(" ");
+		var end = gr.end.getDisplayValue().split(" ");
+		gymClass.startDate = start[0];
+		gymClass.startTime = start[1];
+		gymClass.endDate = end[0];
+		gymClass.endTime = end[1];
+		gymClass.start = gr.start.getDisplayValue();
+		gymClass.end = gr.end.getDisplayValue();
+		gymClass.location = gr.location.getDisplayValue();
+		gymClass.name = gr.short_description.getDisplayValue();
+		gymClass.id = gr.getUniqueValue();
+		//gymClass.capacity = gr.capacity.toString();
+		gymClass.capacity = parseInt(gr.capacity.toString());
+		gymClass.enrolled = parseInt(gr.currently_enrolled.toString());
+		//gymClass.enrolled = gr.currently_enrolled.toString();
+		gymClass.address = gr.address.getDisplayValue();
+		array.push(gymClass);
+		
+	}
+	return array;
+}
+
+
+
+function getDates(){
+	var array = [];
+	
+	
+	for(var i=0; i<10;i++){
+		var date = new GlideDateTime();
+		var dates = {};
+	date.addDaysUTC(i);
+		
+	date = date.getDisplayValue().split(" ");
+	dates.date = date[0];
+	array.push(dates);
+	}
+	return array;
+}
+
+function checkUser(id){
+	var gr = new GlideRecord('x_sthc_physical_th_physical_therapy_gym_crm_table');
+	gr.addQuery('barcode',id);
+	gr.addQuery('account_status','1');
+	gr.query();
+	if(gr.next()){
+		data.userFound = 'true';
+		schUser(gr.sys_id,input.classID);
+	}
+	else 
+		data.userFound = false;
+	
+}
+
+function schUser(user, classID){
+	var gr = new GlideRecord('x_sthc_physical_th_scheduled_members');
+	gr.initialize();
+	gr.setValue('member',user)
+	gr.setValue('gym_class',classID);
+	gr.insert();
+	return;
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>LGOMEZ</sys_created_by>
+        <sys_created_on>2019-10-21 03:19:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a90d55fadbe8c09096b17d8bbf9619e4</sys_id>
+        <sys_mod_count>277</sys_mod_count>
+        <sys_name>Gym Sign up 2</sys_name>
+        <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
+        <sys_update_name>sp_widget_a90d55fadbe8c09096b17d8bbf9619e4</sys_update_name>
+        <sys_updated_by>lgomez</sys_updated_by>
+        <sys_updated_on>2019-11-15 20:09:07</sys_updated_on>
+        <template><![CDATA[<img src="hh_logoT.png">
+
+<h1>
+  Group Classes
+</h1>
+<div class="body">
+  
+  
+<div ng-repeat="dates in data.dates">
+ <h2 class="background double"><span>
+  {{dates.date}}
+  </span></h2>
+
+  <div ng-repeat="gymClass in data.classes" ng-show="gymClass.startDate == dates.date">
+ 
+    
+    
+    <div class="container">
+  <a class="list__item" ng-click="c.submit(gymClass.id,gymClass.enrolled,gymClass.capacity)">
+    <div class = "content">
+      
+     
+    <div class="title">{{gymClass.name}}</div>
+    <div class="date">{{gymClass.startTime}} - {{gymClass.endTime}}</div>
+     <div class="location">{{gymClass.location}} - {{gymClass.address}}</div>
+    <div ng-if="gymClass.enrolled < gymClass.capacity" class="detail">Class Capacity: {{gymClass.enrolled}} / {{gymClass.capacity}}</div>
+    <div ng-if="gymClass.enrolled >= gymClass.capacity" class="detail">Class Capacity: FULL</div>
+      </div>   
+      </a>
+
+    </div>  
+</div>
+</div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

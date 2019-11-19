@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_app_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="Cardiac Rehab Gym">0a75f975dbb3938096b17d8bbf96196b</application>
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_sthc_physical_th_physical_therapy_gym_crm_table">location=ssmc^EQ<item endquery="false" field="location" goto="false" newquery="false" operator="=" or="false" value="ssmc"/>
+        <filter table="x_sthc_physical_th_physical_therapy_gym_crm_table">location=Shea^EQ<item endquery="false" field="location" goto="false" newquery="false" operator="=" or="false" value="Shea"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -30,7 +29,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>f654688cdb04ab8096b17d8bbf9619f7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Shea</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cardiac Rehab Gym" source="x_sthc_physical_th">ca757d35dbb3938096b17d8bbf96197a</sys_package>
@@ -39,7 +38,7 @@
         <sys_scope display_value="Cardiac Rehab Gym">ca757d35dbb3938096b17d8bbf96197a</sys_scope>
         <sys_update_name>sys_app_module_f654688cdb04ab8096b17d8bbf9619f7</sys_update_name>
         <sys_updated_by>LGOMEZ</sys_updated_by>
-        <sys_updated_on>2018-08-21 16:46:22</sys_updated_on>
+        <sys_updated_on>2019-07-10 21:06:48</sys_updated_on>
         <timeline_page/>
         <title>Shea</title>
         <uncancelable>false</uncancelable>
